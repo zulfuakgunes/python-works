@@ -52,4 +52,4 @@ languages[4] = "Abc"  # Throws an exception
 print(languages[3])  # Chinese
 print(languages[-2])  # Russian
 print(languages[5])  # Throws an exception
-print(languages[-6])  # Throws an exception
+print(languages[-6])  # Throws an exception 
