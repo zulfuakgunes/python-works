@@ -35,7 +35,7 @@ with Connect('my.db') as con:
         connect = con.cursor()
         connect.execute("""CREATE TABLE thestudents(
         fullname text,
-        email float
+        email TEXT NOT NULL UNIQUE
         )""")
         con.commit()
     except Exception:
